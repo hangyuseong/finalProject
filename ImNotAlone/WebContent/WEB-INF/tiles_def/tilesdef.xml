@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+  "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" 
+  "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<!-- 스프링3.대를 써야 사용할 수 있다. -->
+<tiles-definitions>
+
+
+	<!--put-attribute에서 value안에 경로인지 문자열인지 어떻게 구분할 수 있을까? 앞에 슬래시가 있냐없냐의 차이로, -->
+	
+		<definition name="based_mainLayout" template="/WEB-INF/tiles_base/mainLayout.jsp" >
+		<put-attribute name="header" value="/WEB-INF/tiles_base/mainHeader.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/tiles_base/footer.jsp" />
+	</definition>
+	
+	
+	<definition name="based_layout" template="/WEB-INF/tiles_base/layout.jsp" >
+		<put-attribute name="header" value="/WEB-INF/tiles_base/header.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/tiles_base/footer.jsp" />
+	</definition>
+	
+	
+	
+	<definition name="loginForm" extends="based_layout">
+		<put-attribute name="title" value="로그인화면" />
+		<put-attribute name="body" value="/WEB-INF/tiles_view/ho/loginForm.jsp" />
+	</definition>
+	
+		<definition name="mainView" extends="based_mainLayout">
+		<put-attribute name="title" value="메인화면" />
+		<put-attribute name="body" value="/WEB-INF/tiles_view/main/visualView.jsp" />
+		<put-attribute name="body1" value="/WEB-INF/tiles_view/main/contentsView.jsp" />
+	</definition>	
+	
+	
+	<!-- 규성 room upload -->
+	<definition name="roomupload" extends="based_layout">
+		<put-attribute name="title" value="방올리기"/>
+		<put-attribute name="body" value = "/WEB-INF/tiles_view/han/roomupload.jsp"/>
+	</definition>
+	
+	<definition name="roomupload1" extends="based_layout">
+		<put-attribute name="title" value="방올리기"/>
+		<put-attribute name="body" value = "/WEB-INF/tiles_view/han/roomupload1.jsp"/>
+	</definition>
+	
+	<definition name="roomupload2" extends="based_layout">
+		<put-attribute name="title" value="방올리기"/>
+		<put-attribute name="body" value = "/WEB-INF/tiles_view/han/roomupload2.jsp"/>
+	</definition>
+	
+	
+	
+	
+
+</tiles-definitions>
