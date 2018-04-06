@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
 <div id="preloader"></div>
         <!-- Static navbar -->
         <nav class="navbar navbar-default navbar-fixed-top">
@@ -23,12 +25,13 @@
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">방올리기 <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
+                        <li><a href="/ImNotAlone/share/han/roomupload">호스팅하기</a></li>
+                            <!-- <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">방올리기 <span class="caret"></span></a> -->
+<!--                             <ul class="dropdown-menu">
                                 <li><a href="add-listing.html">프로필 등록하기</a></li>
                                 <li><a href="listing-grid.html">방 등록</a></li>  
-                            </ul>
-                        </li>
+                            </ul> -->
+                        
                         <li class="dropdown mega-li">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Locations <span class="caret"></span></a>
                             <ul class="dropdown-menu mega-dropdown-menu">

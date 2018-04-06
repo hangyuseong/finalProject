@@ -36,17 +36,17 @@
 	
 	<!-- 규성 room upload -->
 	<definition name="roomupload" extends="based_layout">
-		<put-attribute name="title" value="방올리기"/>
+		<put-attribute name="title" value="방 위치 등록"/>
 		<put-attribute name="body" value = "/WEB-INF/tiles_view/han/roomupload.jsp"/>
 	</definition>
 	
 	<definition name="roomupload1" extends="based_layout">
-		<put-attribute name="title" value="방올리기"/>
+		<put-attribute name="title" value="방 상세정보 등록"/>
 		<put-attribute name="body" value = "/WEB-INF/tiles_view/han/roomupload1.jsp"/>
 	</definition>
 	
 	<definition name="roomupload2" extends="based_layout">
-		<put-attribute name="title" value="방올리기"/>
+		<put-attribute name="title" value="방 사진 등록"/>
 		<put-attribute name="body" value = "/WEB-INF/tiles_view/han/roomupload2.jsp"/>
 	</definition>
 	

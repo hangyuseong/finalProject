@@ -11,10 +11,11 @@
 
 	<a href="/ImNotAlone/share/ho/login"> 프로젝트</a>
 	<a href="share/main/mainView">메인페이지</a>
-    <a href ="/ImNotAlone/share/han/roomupload">방 등록</a>
+	
+    <a href ="/ImNotAlone/share/han/roomupload">방 위치 등록</a>
     
     <a href ="/ImNotAlone/share/han/roomupload1">방 상세정보 등록</a>
-    <a href ="/ImNotAlone/share/han/roomupload2">방 위치 등록</a>    
+    <a href ="/ImNotAlone/share/han/roomupload2">방 사진 등록</a> 
         
         
 </body>

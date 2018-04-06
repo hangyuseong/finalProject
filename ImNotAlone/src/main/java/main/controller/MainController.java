@@ -13,5 +13,14 @@ public class MainController {
 		return "mainView";
 	}
 	
+	//방 업로드 컨트롤러
+	
+/*	@RequestMapping(value = "/han/roomupload1", method = RequestMethod.GET)
+	public String roomForm1()
+	{
+		System.out.println("방 상세정보 등록 roomController");
+		return "roomupload1";
+	}
+	*/
 	
 }

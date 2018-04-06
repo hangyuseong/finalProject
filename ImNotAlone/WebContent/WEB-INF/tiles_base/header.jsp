@@ -49,19 +49,7 @@
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">방올리기 <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="add-listing.html">Add Listing</a></li>
-                                <li><a href="listing-grid.html">Listing Grid fullwidth</a></li>
-                                <li><a href="listing-grid-sidebar.html">Listing Grid + Sidebar</a></li>
-                                <li><a href="listing-map.html">With Map</a></li>
-                                <li><a href="listing-row.html">Row full width</a></li>
-                                <li><a href="listing-row-sidebar.html">Row + Sidebar</a></li>
-                                <li><a href="single-listing.html">Listing Detail</a></li>
-                                <li><a href="agents.html">Agent Listing</a></li>
-                                <li><a href="single-agent.html">Agent Detail</a></li>
-                                <li><a href="profile.html">My Profile</a></li>
-                            </ul>
+                            <a href="/ImNotAlone/share/han/roomupload">호스팅하기</a>
                         </li>
                         <li class="dropdown mega-li">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Locations <span class="caret"></span></a>

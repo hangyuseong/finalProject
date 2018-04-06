@@ -15,18 +15,146 @@
         </div>
         <div class="container">
             <div class="row">
+            <h1 class="left-title">3단계 : 방 상세정보 등록</h1>
                 <div class="col-md-9 mb30">
-                    
+                <!-- 기본정보 -->
                     <div class="mb40">
-                        <h2 class="left-title">Add Photos</h2>
-                        <form id="my-awesome-dropzone" action="add-listing.html" class="dropzone"></form>
-                    </div><!--/-->
+                        <h3 class="left-title">상세정보</h3>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <select name="property" class="form-control">
+                                        <option>Property Type</option>
+                                        <option>Apartment</option>
+                                        <option>Condo</option>
+                                        <option>House</option>
+                                        <option>Villa</option>
+                                    </select>
+                                </div><!-- /.form-group -->
+
+                                <div class="form-group">
+                                    <select name="contract" class="form-control">
+                                        <option>Contract</option>
+                                        <option>Rent</option>
+                                        <option>Sale</option>
+                                    </select>
+                                </div><!-- /.form-group -->
+                                <div class="form-group">
+                                    <select name="location" class="form-control">
+                                        <option>India</option>
+                                        <option>USA</option>
+                                        <option>Paris</option>
+                                        <option>Japan</option>
+                                    </select>
+                                </div><!-- /.form-group -->
+                                <div class="form-group-icon mb15">
+                                    <i class="fa fa-dollar"></i>
+                                    <input type="email" class="form-control" placeholder="Min Price">
+                                </div>
+                            </div>
+                            
+                            
+                            <div class="col-sm-6">
+                                <div class="form-group-icon mb15">
+                                    <i class="fa fa-home"></i>
+                                    <input type="email" class="form-control" placeholder="Address">
+                                </div>
+                                <div class="form-group-icon mb15">
+                                    <i class="fa fa-location-arrow"></i>
+                                    <input type="email" class="form-control" placeholder="City">
+                                </div>
+                                <div class="form-group-icon mb15">
+                                    <i class="fa fa-envelope-o"></i>
+                                    <input type="email" class="form-control" placeholder="Email">
+                                </div>
+                                <div class="form-group-icon mb15">
+                                    <i class="fa fa-phone"></i>
+                                    <input type="email" class="form-control" placeholder="Phone">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 상세정보 -->
+                    <div class="mb40">
+                        <h3 class="left-title">상세정보</h3>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <select name="property" class="form-control">
+                                        <option>Property Type</option>
+                                        <option>Apartment</option>
+                                        <option>Condo</option>
+                                        <option>House</option>
+                                        <option>Villa</option>
+                                    </select>
+                                </div><!-- /.form-group -->
+
+                                <div class="form-group">
+                                    <select name="contract" class="form-control">
+                                        <option>Contract</option>
+                                        <option>Rent</option>
+                                        <option>Sale</option>
+                                    </select>
+                                </div><!-- /.form-group -->
+                                <div class="form-group">
+                                    <select name="location" class="form-control">
+                                        <option>India</option>
+                                        <option>USA</option>
+                                        <option>Paris</option>
+                                        <option>Japan</option>
+                                    </select>
+                                </div><!-- /.form-group -->
+                                <div class="form-group-icon mb15">
+                                    <i class="fa fa-dollar"></i>
+                                    <input type="email" class="form-control" placeholder="Min Price">
+                                </div>
+                            </div>
+                            
+                            
+                            <div class="col-sm-6">
+                                <div class="form-group-icon mb15">
+                                    <i class="fa fa-home"></i>
+                                    <input type="email" class="form-control" placeholder="Address">
+                                </div>
+                                <div class="form-group-icon mb15">
+                                    <i class="fa fa-location-arrow"></i>
+                                    <input type="email" class="form-control" placeholder="City">
+                                </div>
+                                <div class="form-group-icon mb15">
+                                    <i class="fa fa-envelope-o"></i>
+                                    <input type="email" class="form-control" placeholder="Email">
+                                </div>
+                                <div class="form-group-icon mb15">
+                                    <i class="fa fa-phone"></i>
+                                    <input type="email" class="form-control" placeholder="Phone">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb40">
+                        <h3 class="left-title">추가 옵션</h3>
+                        <ul class="amenities list-inline">
+                            <li class="checkbox"><input type="checkbox" id="amenity-1"> <label for="amenity-1">무선 인터넷</label></li>
+                            <li class="checkbox"><input type="checkbox" id="amenity-2"> <label for="amenity-2">세탁기</label></li>
+                            <li class="checkbox"><input type="checkbox" id="amenity-3"> <label for="amenity-3">에어컨</label></li>
+                            <li class="checkbox"><input type="checkbox" id="amenity-4"> <label for="amenity-4">TV</label></li>
+                            <li class="checkbox"><input type="checkbox" id="amenity-5"> <label for="amenity-5">전자도어락</label></li>
+                            <li class="checkbox"><input type="checkbox" id="amenity-6"> <label for="amenity-6">중앙난방</label></li>
+                            <li class="checkbox"><input type="checkbox" id="amenity-7"> <label for="amenity-7">개인난방</label></li>
+                            <li class="checkbox"><input type="checkbox" id="amenity-8"> <label for="amenity-8">냉장고</label></li>
+                            <li class="checkbox"><input type="checkbox" id="amenity-9"> <label for="amenity-9">가스레인지</label></li>
+                            <li class="checkbox"><input type="checkbox" id="amenity-10"> <label for="amenity-10">전자레인지</label></li>
+                            <li class="checkbox"><input type="checkbox" id="amenity-11"> <label for="amenity-11">책장</label></li>
+                            <li class="checkbox"><input type="checkbox" id="amenity-12"> <label for="amenity-12">옷장</label></li>
+                            <li class="checkbox"><input type="checkbox" id="amenity-13"> <label for="amenity-13">침대</label></li>
+                        </ul>
+                    </div>
+                    
                     <div class="text-right mb40">
-                        <a href="#" class="btn btn-lg btn-primary">PREV</a>
-                        <a href="#" class="btn btn-lg btn-primary">NEXT</a>
+                        <a href="/ImNotAlone/share/han/roomupload1" class="btn btn-lg btn-primary">PREV</a>
+                        <a href="/ImNotAlone/share/han/uploadFInish" class="btn btn-lg btn-primary">NEXT</a>
                     </div>
                 </div><!--/col-->
-                
             </div>
         </div>
        

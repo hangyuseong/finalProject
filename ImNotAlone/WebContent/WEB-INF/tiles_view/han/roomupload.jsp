@@ -5,7 +5,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6">
-                        <h3>submit listing</h3>
+                        <h3>호스팅하기</h3>
                     </div>
                     <div class="col-sm-6">
 
@@ -17,20 +17,22 @@
             <div class="row">
                 <div class="col-md-9 mb30">
                      <div class="mb40">
-                        <h2 class="left-title">Listing Location</h2>
+                        <h2 class="left-title">1단계 : 방 위치 등록</h2>
                         <div class="mb15">
-                            <input id="pac-input" class="controls form-control map-search-box" type="text" placeholder="Enter a location">
+                           
 
                             <div id="map-canvas"></div>
                         </div>
                         <div class="row">
                             <div class="col-sm-6">
+                            <label>* 주소입력</label>
                                 <div class="form-group-icon mb15">
                                     <i class="fa fa-map-marker"></i>
                                     <input type="email" class="form-control" placeholder="Latitude">
                                 </div>
                             </div> 
                             <div class="col-sm-6">
+                            <label>* 상세주소</label>
                                 <div class="form-group-icon mb15">
                                     <i class="fa fa-map-marker"></i>
                                     <input type="email" class="form-control" placeholder="Longitude">
@@ -38,8 +40,7 @@
                             </div>
                         </div>
                          <div class="text-right mb40">
-                        	<a href="#" class="btn btn-lg btn-primary">PREV</a>
-                        	<a href="#" class="btn btn-lg btn-primary">NEXT</a>
+                        	<a href="/ImNotAlone/share/han/roomupload1" class="btn btn-lg btn-primary">NEXT</a>
                     	</div>
                     </div><!--/-->
                 </div><!--/col-->

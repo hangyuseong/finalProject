@@ -9,7 +9,7 @@ public class RoomDTO {
 	private String r_index;
 	private String r_addr1;
 	private String r_addr2;
-	private String r_zipcode;
+	//private String r_zipcode;
 	private String r_gender;
 	private String r_dep;
 	private String r_m_rent;
@@ -65,12 +65,12 @@ public class RoomDTO {
 	public void setR_addr2(String r_addr2) {
 		this.r_addr2 = r_addr2;
 	}
-	public String getR_zipcode() {
-		return r_zipcode;
-	}
-	public void setR_zipcode(String r_zipcode) {
-		this.r_zipcode = r_zipcode;
-	}
+//	public String getR_zipcode() {
+//		return r_zipcode;
+//	}
+//	public void setR_zipcode(String r_zipcode) {
+//		this.r_zipcode = r_zipcode;
+//	}
 	public String getR_gender() {
 		return r_gender;
 	}

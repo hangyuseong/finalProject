@@ -17,21 +17,21 @@ public class RoomController {
 	@RequestMapping(value = "/han/roomupload", method = RequestMethod.GET)
 	public String roomForm()
 	{
-		System.out.println("방 등록 roomController");
+		System.out.println("방 위치등록  roomController");
 		return "roomupload";
 	}
 	
 	@RequestMapping(value = "/han/roomupload1", method = RequestMethod.GET)
 	public String roomForm1()
 	{
-		System.out.println("방 상세정보 등록 roomController");
+		System.out.println("방 사진등록 roomController");
 		return "roomupload1";
 	}
 	
 	@RequestMapping(value = "/han/roomupload2", method = RequestMethod.GET)
 	public String roomForm2()
 	{
-		System.out.println("방 위치정보 등록 roomController");
+		System.out.println("방 상세정보 등록 roomController");
 		return "roomupload2";
 	}
 }
