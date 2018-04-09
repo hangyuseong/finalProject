@@ -19,7 +19,7 @@
                      <div class="mb40">
                         <h2 class="left-title">1단계 : 방 위치 등록</h2>
                         <div class="mb15">
-                           
+                            <input id="pac-input" class="controls form-control map-search-box" type="text" placeholder="Enter a location">
 
                             <div id="map-canvas"></div>
                         </div>
@@ -28,14 +28,14 @@
                             <label>* 주소입력</label>
                                 <div class="form-group-icon mb15">
                                     <i class="fa fa-map-marker"></i>
-                                    <input type="email" class="form-control" placeholder="Latitude">
+                                    <input type="text" class="form-control" placeholder="Latitude">
                                 </div>
                             </div> 
                             <div class="col-sm-6">
                             <label>* 상세주소</label>
                                 <div class="form-group-icon mb15">
                                     <i class="fa fa-map-marker"></i>
-                                    <input type="email" class="form-control" placeholder="Longitude">
+                                    <input type="text" class="form-control" placeholder="Longitude">
                                 </div>
                             </div>
                         </div>
@@ -53,14 +53,20 @@
         <script src="js/finder.custom.js"></script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8VMR9FooFZN64_qR8pu0jY0NJ8j_sicE&libraries=places&callback=initAutocomplete"
         async defer></script>
-        <script>
-           
-            
+        
+        
+		<script>
+		/* $(document).ready(function(){
+			$('icon').click(function(){
+				
+			})
+		}) */
+		var infowindow = new google.maps.InfoWindow();
             //google-map-location-finder
             function initAutocomplete() {
                 var map = new google.maps.Map(document.getElementById('map-canvas'), {
-                    center: {lat: 26.981942, lng: 75.684486},
-                    zoom: 13,
+                	center: {lat: 37.566535, lng: 126.97796919999996},
+                    zoom: 15,
                     mapTypeId: 'roadmap'
                 });
 
@@ -125,6 +131,5 @@
             }
 
         </script>
-
     </body>
 </html>

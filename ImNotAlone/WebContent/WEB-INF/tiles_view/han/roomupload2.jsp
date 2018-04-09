@@ -88,8 +88,7 @@
                                         <option>Villa</option>
                                     </select>
                                 </div><!-- /.form-group -->
-
-                                <div class="form-group">
+						<div class="form-group">
                                     <select name="contract" class="form-control">
                                         <option>Contract</option>
                                         <option>Rent</option>
