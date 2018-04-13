@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="enadmin">
+
+	<select id="selectMonth" resultType="en.dto.ChartDTO">
+		select substr(user_sign_in, 4, 2) as mon, count(substr(user_sign_in, 4, 2)) as count
+		from Member_T
+		group by substr(user_sign_in, 4, 2)
+	</select>
+
+</mapper>

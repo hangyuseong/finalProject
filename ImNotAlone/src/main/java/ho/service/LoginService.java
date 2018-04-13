@@ -17,14 +17,14 @@ public class LoginService {
 		String userPasswd = dao.checkUser(dto.getUserEmail());
 
 		if (userPasswd != null) {
-			if (dto.getUserPasswd().equals(userPasswd)) {
-				return 1; // ·Î±×ÀÎ¼º°ø
+			if (dto.getUserPasswd().equals(userPasswd)) {                                          
+				return 1; // ï¿½Î±ï¿½ï¿½Î¼ï¿½ï¿½ï¿½s
 			} else {
-				return 2; // ºñ¹Ð¹øÈ£ Æ²¸²
+				return 2; // ï¿½ï¿½Ð¹ï¿½È£ Æ²ï¿½ï¿½
 			}
 
 		} else {
-			return 0; // È¸¿øÁ¤º¸°¡ ¾øÀ½.
+			return 0; // È¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 		}
 	}
 	

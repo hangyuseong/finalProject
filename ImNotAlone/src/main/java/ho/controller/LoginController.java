@@ -17,7 +17,7 @@ public class LoginController {
 	
 	@RequestMapping(value="/ho/login",method=RequestMethod.GET)
 	public String loginForm() {
-		System.out.println("½ÇÇà");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½");
 		return "loginForm";
 	}
 	
@@ -27,15 +27,16 @@ public class LoginController {
 
 		int result = loginService.login(dto);
 		if(result == 1) {
-			return "redirect:/share/main/mainView"; //·Î±×ÀÎ ¼º°ø
+			return "redirect:/share/main/mainView"; //ï¿½Î±ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		}else if(result == 2){
-			System.out.println("·Î±×ÀÎ ½ÇÆÐ, ÆÐ½º¿öµå ºÒÀÏÄ¡");
-			return "redirect:/share/ho/login"; //ÆÐ½º¿öµå ºÒÀÏÄ¡
+			System.out.println("ï¿½Î±ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½, ï¿½Ð½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ä¡");
+			return "redirect:/share/ho/login"; //ï¿½Ð½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ä¡
 		}else {
-			System.out.println("·Î±×ÀÎ ½ÇÆÐ, È¸¿øÁ¤º¸ ¾øÀ½ or ÀÌ¸ÞÀÏÀÌ Æ²¸²");
-			return "redirect:/share/ho/login"; //È¸¿øÁ¤º¸ ¾øÀ½ 
+			System.out.println("ï¿½Î±ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½, È¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ or ï¿½Ì¸ï¿½ï¿½ï¿½ï¿½ï¿½ Æ²ï¿½ï¿½");
+			return "redirect:/share/ho/login"; //È¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ 
 		}
 	}
+	
 	
 	 
 }
