@@ -4,6 +4,9 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="hanUpload">
-
+	
+	<insert id = "uploadImg" parameterType="han.dto.RoomDTO">
+		insert into r_ph_t values(#{rp_id},#{rp_img},#{rp_path},#{rp_oname},#{rp_sname},#{rp_img_size})
+	</insert>
 
 </mapper>

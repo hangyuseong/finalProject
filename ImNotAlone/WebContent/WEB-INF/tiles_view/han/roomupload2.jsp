@@ -22,6 +22,7 @@
                         <h3 class="left-title">상세정보</h3>
                         <div class="row">
                             <div class="col-sm-6">
+                            <label>* 방분류</label>
                                 <div class="form-group">
                                     <select name="property" class="form-control">
                                         <option>Property Type</option>
@@ -31,7 +32,7 @@
                                         <option>Villa</option>
                                     </select>
                                 </div><!-- /.form-group -->
-
+								<label>* 호스트 성별</label>
                                 <div class="form-group">
                                     <select name="contract" class="form-control">
                                         <option>Contract</option>
@@ -39,6 +40,7 @@
                                         <option>Sale</option>
                                     </select>
                                 </div><!-- /.form-group -->
+                                <label>* 보증금</label>
                                 <div class="form-group">
                                     <select name="location" class="form-control">
                                         <option>India</option>
@@ -47,6 +49,17 @@
                                         <option>Japan</option>
                                     </select>
                                 </div><!-- /.form-group -->
+                                <label>* 방면적</label>
+                                <div class="form-group-icon mb15">
+                                    <i class="fa fa-dollar"></i>
+                                    <input type="email" class="form-control" placeholder="Min Price">
+                                </div>
+                                <label>* 월세</label>
+                                <div class="form-group-icon mb15">
+                                    <i class="fa fa-dollar"></i>
+                                    <input type="email" class="form-control" placeholder="Min Price">
+                                </div>
+                                <label>* 관리비</label>
                                 <div class="form-group-icon mb15">
                                     <i class="fa fa-dollar"></i>
                                     <input type="email" class="form-control" placeholder="Min Price">
@@ -55,18 +68,32 @@
                             
                             
                             <div class="col-sm-6">
+                            	<label>* 인근 지하철역</label>
                                 <div class="form-group-icon mb15">
                                     <i class="fa fa-home"></i>
                                     <input type="email" class="form-control" placeholder="Address">
                                 </div>
+                                <label>* 인근 대학교</label>
+                                <div class="form-group-icon mb15">
+                                    <i class="fa fa-phone"></i>
+                                    <input type="email" class="form-control" placeholder="Phone">
+                                </div>
+                                <label>* 엘레베이터</label>
                                 <div class="form-group-icon mb15">
                                     <i class="fa fa-location-arrow"></i>
                                     <input type="email" class="form-control" placeholder="City">
                                 </div>
+                                <label>* 건물 층수</label>
                                 <div class="form-group-icon mb15">
                                     <i class="fa fa-envelope-o"></i>
                                     <input type="email" class="form-control" placeholder="Email">
                                 </div>
+                                <label>* 입주가능일</label>
+                                <div class="form-group-icon mb15">
+                                    <i class="fa fa-phone"></i>
+                                    <input type="email" class="form-control" placeholder="Phone">
+                                </div>
+                                <label>* 반려동물여부</label>
                                 <div class="form-group-icon mb15">
                                     <i class="fa fa-phone"></i>
                                     <input type="email" class="form-control" placeholder="Phone">
@@ -74,62 +101,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- 상세정보 -->
-                    <div class="mb40">
-                        <h3 class="left-title">상세정보</h3>
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                    <select name="property" class="form-control">
-                                        <option>Property Type</option>
-                                        <option>Apartment</option>
-                                        <option>Condo</option>
-                                        <option>House</option>
-                                        <option>Villa</option>
-                                    </select>
-                                </div><!-- /.form-group -->
-						<div class="form-group">
-                                    <select name="contract" class="form-control">
-                                        <option>Contract</option>
-                                        <option>Rent</option>
-                                        <option>Sale</option>
-                                    </select>
-                                </div><!-- /.form-group -->
-                                <div class="form-group">
-                                    <select name="location" class="form-control">
-                                        <option>India</option>
-                                        <option>USA</option>
-                                        <option>Paris</option>
-                                        <option>Japan</option>
-                                    </select>
-                                </div><!-- /.form-group -->
-                                <div class="form-group-icon mb15">
-                                    <i class="fa fa-dollar"></i>
-                                    <input type="email" class="form-control" placeholder="Min Price">
-                                </div>
-                            </div>
-                            
-                            
-                            <div class="col-sm-6">
-                                <div class="form-group-icon mb15">
-                                    <i class="fa fa-home"></i>
-                                    <input type="email" class="form-control" placeholder="Address">
-                                </div>
-                                <div class="form-group-icon mb15">
-                                    <i class="fa fa-location-arrow"></i>
-                                    <input type="email" class="form-control" placeholder="City">
-                                </div>
-                                <div class="form-group-icon mb15">
-                                    <i class="fa fa-envelope-o"></i>
-                                    <input type="email" class="form-control" placeholder="Email">
-                                </div>
-                                <div class="form-group-icon mb15">
-                                    <i class="fa fa-phone"></i>
-                                    <input type="email" class="form-control" placeholder="Phone">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <!-- 추가옵션 -->
                     <div class="mb40">
                         <h3 class="left-title">추가 옵션</h3>
                         <ul class="amenities list-inline">
@@ -148,10 +120,9 @@
                             <li class="checkbox"><input type="checkbox" id="amenity-13"> <label for="amenity-13">침대</label></li>
                         </ul>
                     </div>
-                    
                     <div class="text-right mb40">
                         <a href="/ImNotAlone/share/han/roomupload1" class="btn btn-lg btn-primary">PREV</a>
-                        <a href="/ImNotAlone/share/han/uploadFInish" class="btn btn-lg btn-primary">NEXT</a>
+                        <a href="/ImNotAlone/share/han/uploadFInish" class="btn btn-lg btn-primary">FINISH</a>
                     </div>
                 </div><!--/col-->
             </div>
