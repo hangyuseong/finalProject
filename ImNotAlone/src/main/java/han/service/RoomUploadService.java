@@ -22,9 +22,9 @@ import han.model.PhotoDAO;
 
 @Service
 @Transactional
-public class RoomService implements ApplicationContextAware {
-
-	@Autowired
+public class RoomUploadService {
+/*	implements ApplicationContextAware 
+*/	/*@Autowired
 	PhotoDAO pDAO;
 	
 	MultipartFile uploadFile;
@@ -78,6 +78,6 @@ public class RoomService implements ApplicationContextAware {
 			
 		}
 		return "방사진 올리기";
-	}
+	}*/
 	
 }

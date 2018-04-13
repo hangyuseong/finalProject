@@ -2,12 +2,12 @@ package han.dto;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import han.service.RoomService;
+import han.service.RoomUploadService;
 
 public class DefaultOptionDTO {
 
 	@Autowired
-	RoomService roomservice;
+	RoomUploadService roomuploadservice;
 
 	
 	private String d_wifi;

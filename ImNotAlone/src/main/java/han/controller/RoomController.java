@@ -7,14 +7,14 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import han.service.RoomService;
+import han.service.RoomUploadService;
 
 @Controller
 public class RoomController {
 
 	
 	@Autowired
-	RoomService roomService;
+	RoomUploadService roomuploadservice;
 	
 	@RequestMapping(value = "/han/roomupload", method = RequestMethod.GET)
 	public String roomForm(HttpSession session)
