@@ -15,7 +15,8 @@
     <a href ="/ImNotAlone/share/han/roomupload">방 위치 등록</a>
     
     <a href ="/ImNotAlone/share/han/roomupload1">방 상세정보 등록</a>
-    <a href ="/ImNotAlone/share/han/roomupload2">방 사진 등록</a> 
+    <a href ="/ImNotAlone/share/han/roomupload2">방 사진 등록</a>
+    <a href="/ImNotAlone/share/en/test">차트 테스트</a>
         
         
 </body>
